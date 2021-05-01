@@ -32,5 +32,5 @@ while [ 1 ]
 do
   clear >/dev/tty1
   printf "SNAKEWARE READY.\n\n" >/dev/tty1
-  PYTHONSTARTUP=/usr/share/snakeware/startup.py /usr/bin/python3 </dev/tty1 >/dev/tty1 2>&1
+  PYTHONSTARTUP=/usr/share/snakeware/startup.py /usr/bin/xonsh </dev/tty1 >/dev/tty1 2>&1
 done
