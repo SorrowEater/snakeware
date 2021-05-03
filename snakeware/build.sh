@@ -13,7 +13,7 @@ SNAKEWARE=$PWD
 IMG=snakeware.img
 
 if [ ! -d buildroot_$1 ]; then
-  git clone -b $BUILDROOT_VERSION https://github.com/SorrowEater/buildroot.git buildroot_$1 --depth 1
+  git clone -b $BUILDROOT_VERSION https://github.com/buildroot/buildroot.git buildroot_$1 --depth 1
 fi
 
 if [ ! -f "$SNAKEWARE/external/configs/$1_defconfig" ]; then
