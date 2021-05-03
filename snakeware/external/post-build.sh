@@ -13,3 +13,6 @@ cp -r $SNAKEWARE/../snakewm output/target/usr/lib/$PYLIBVER/
 # copy snake-games
 rm -rf output/target/usr/lib/$PYLIBVER/snake_games
 cp -r $SNAKEWARE/../snake_games output/target/usr/lib/$PYLIBVER/
+
+#copy xonsh
+cp $SNAKEWARE/../xonsh/xonsh output/target/usr/bin/xonsh

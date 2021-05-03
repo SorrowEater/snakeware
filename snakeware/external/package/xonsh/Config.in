@@ -1,9 +1,0 @@
-config BR2_PACKAGE_XONSH
-	bool "xonsh"
-	help
-	  xonsh is a Python-powered, cross-platform, Unix-gazing shell language and command prompt.
-
-	  https://xon.sh/
-	select BR2_PACKAGE_PYTHON_SETPROCTITLE
-	select BR2_PACKAGE_PYTHON_PROMPT_TOOLKIT
-	select BR2_PACKAGE_PYTHON_PYGMENTS
