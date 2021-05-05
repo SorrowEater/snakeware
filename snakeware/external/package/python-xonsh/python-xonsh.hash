@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/xonsh/json
+md5  d9376f6af5a10a05c8d003a91c6bff44  xonsh-0.9.27.tar.gz
+sha256  82aa7c50eb161c74e0b12c4f9c772d228a1e90b21afb948c0dc9dfb2b63f5fd5  xonsh-0.9.27.tar.gz
+# Locally computed sha256 checksums
+sha256  f9ea6b8a39f29aff6d2ffd7f1613c490f7e8c1b15e3ceeacfb7fd81f86cc827e  license

@@ -1,0 +1,9 @@
+config BR2_PACKAGE_PYTHON_XONSH
+	bool "python-xonsh"
+	help
+	  Python-powered, cross-platform, Unix-gazing shell.
+
+	  https://github.com/xonsh/xonsh
+	select BR2_PACKAGE_PYTHON_PROMPT_TOOLKIT
+	select BR2_PACKAGE_PYTHON_PYGMENTS
+	select BR2_PACKAGE_PYTHON_SETPROCTITLE
